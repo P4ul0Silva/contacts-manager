@@ -14,16 +14,21 @@ Rode o comando para instalar as dependencias
 ```bash
 yarn
 ```
-Rode as migrações para criar um banco com dados já cadastrados
-```bash
-yarn prisma migrate dev --name init
-```
 Para inciar a API
 ```
 yarn start:dev
 ```
-O Acesso está disponível no local configurado com o swagger, onde é possível testar todas as requisições <strong>fácilmente</strong>
-```
+<br>
+
+#### O back-end já vem com alguns dados, para testar as requisições. Tente adicionar um contato à um cliente.
+
+<br>
+
+O Acesso está disponível no local configurado com o <strong>Swagger</strong>, onde é possível testar todas as requisições <strong>fácilmente</strong>.
+
+<br>
+
+```bash
 http://localhost:3001/api
 ```
 
@@ -36,7 +41,7 @@ POST /clients :
 {
   "fullName": "Nome",
   "email": "nome@mail.com",
-	"phone": "99999999999"
+  "phone": "99999999999"
 }
 
 PATCH /clients/#id
