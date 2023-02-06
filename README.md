@@ -24,7 +24,7 @@ yarn start:dev
 
 <br>
 
-O Acesso está disponível no local configurado com o <strong>Swagger</strong>, onde é possível testar todas as requisições <strong>fácilmente</strong>.
+O Acesso está disponível no local configurado com o <strong>[Swagger](http://localhost:3001/api)</strong>, onde é possível testar todas as requisições <strong>fácilmente</strong>.
 
 <br>
 
